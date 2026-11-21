@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти та запис — Emma Photography</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="contacts-hero">
+            <a class="ret" href="index.html">На головну</a>
+            <div class="xxx">
+                <h1 class="emma2">КОНТАКТИ ТА ЗАПИС</h1>
+               
+            </div>
+        </div>
+    </header>
+
+    <main >
+        <div class="contacts-container">
+        <div class="zaya1">
+            <h2 class="hh2">Швидкий зв'язок</h2>
+            <div class="text">
+            <div>Оберіть зручний для вас спосіб зв'язку</div>
+            <div>або напишіть у соціальних мережах.</div>
+            </div>
+            <div class="textsoc">
+            <a href="https://www.instagram.com/nnbkppl?evlk=MTE5cWdiZGY2cWhpcQ==" target="_blank" rel="noopener noreferrer" class="cvv1">
+                <span>Написати в Instagram</span>
+                <img src="images/inst.png" alt="" class="btn">
+            </a>
+            <a href="https://t.me/Nmttttnm" target="_blank" rel="noopener noreferrer" class="cvv2">
+                <span>Написати в Telegram</span>
+                <img src="images/tg.png" alt="" class="btn">
+            </a>
+            </div>
+        </div>
+
+        <div class="zaya2">
+            <h2 class="hh23">Залишити заявку</h2>
+            <form action="https://api.web3forms.com/submit" method="POST" class="booking-form">
+                <input type="hidden" name="access_key" value="93dbad53-cfab-4aad-9537-90b38e4a33b0">
+                <input type="hidden" name="subject" value="Нова заявка на зйомку з сайту!">
+               
+                <p><label for="name">Ваше ім'я: </label>
+                <input id="name" type="text" name="name" required></p> 
+
+                <p><label for="write">Ваш Instagram/телефон: </label>
+                <input id="write" type="text" name="inst_or_phone" placeholder="+380..." required></p>
+
+                 <p><label for="service">Формат зйомки: </label>
+                    <select id="service" name="service">
+                        <option value="" disabled selected hidden></option>
+                        <option value="Стиль — 2500 грн">Стиль (2500 грн)</option>
+                        <option value="Сім'я — 3000 грн">Сім'я (3000 грн)</option>
+                        <option value="Весілля — 4500 грн">Весілля (4500 грн)</option>
+                        <option value="Індивідуальна — 2000 грн">Індивідуальна (2000 грн)</option>
+                    </select></p>
+
+                <p><label for="date">Бажана дата: </label>
+                <input type="date" id="date" name="date" required></p>
+
+
+            <button type="submit" class="order-btn submit-btn">Надіслати заявку</button>
+                <p class="form-note">Після відправки я перевірю графік і напишу вам для підтвердження точного часу.</p>
+            </form>
+        </div>
+       </div>
+    </main>
+</body>
+</html>
